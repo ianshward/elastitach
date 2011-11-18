@@ -1,0 +1,16 @@
+{
+    "awskey": "XXXXX",
+    "awssecret": "XXXXX",
+    "jobs": {
+        "i-XXXXXXXX": {
+            "devices": "/dev/sdf1,/dev/sdf2, /dev/sdf3, /dev/sdf4",
+            "description": "file cluster RAID",
+            "size": 512
+        },
+        "self": {
+            "devices": "/dev/sdg",
+            "description": "storage for logs",
+            "size": 128
+        }
+    }
+}
